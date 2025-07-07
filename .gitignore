@@ -1,0 +1,10 @@
+# Terraform state & plugins
+infra/.terraform/
+infra/*.tfstate*
+infra/terraform.tfstate.backup
+
+# Kubeconfig (sensitive)
+kubeconfig
+
+# IDE
+.vscode/
